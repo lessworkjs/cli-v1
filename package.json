@@ -1,0 +1,55 @@
+{
+  "author": {
+    "name": "William Bowman",
+    "email": "will@kickbackapps.com"
+  },
+  "bin": {
+    "lesswork": "src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lessworkjs/cli/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [{
+      "name": "Harminder Virk",
+      "email": "virk@adonisjs.com"
+    },
+    {
+      "name": "Romain Lanz",
+      "email": "romain.lanz@slynova.ch"
+    }
+  ],
+  "dependencies": {
+    "adonis-ace": "^3.0.5",
+    "adonis-fold": "^3.0.3",
+    "cli-spinner": "^0.2.5",
+    "fs-extra": "^1.0.0",
+    "pify": "^2.3.0",
+    "semver": "^5.3.0",
+    "which": "^1.2.12"
+  },
+  "deprecated": false,
+  "description": "Scaffold new lesswork application",
+  "devDependencies": {
+    "adonis-fold": "^3.0.3",
+    "standard": "^9.0.0"
+  },
+  "homepage": "https://github.com/lessworkjs/cli#readme",
+  "keywords": [
+    "adonis",
+    "adonisjs",
+    "cli",
+    "installer"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "lesswork-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lessworkjs/cli.git"
+  },
+  "scripts": {
+    "lint": "standard"
+  },
+  "version": "1.0.1"
+}
