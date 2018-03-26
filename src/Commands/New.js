@@ -94,17 +94,17 @@ class New extends BaseCommand {
     yield this._copyEnvironmentFile()
 
     if (!options['skip-install']) {
-      yield this._generateSecureKey()
+      // yield this._generateSecureKey()
     }
 
     this.log()
     this.success(`${this.icon('success')} Your application is ready!`)
     this.log()
 
-    this.info(`${this.icon('info')} Follow below instructions to get started`)
-    this.log(`$ cd ${this.colors.magenta.bold(args.name)}`)
-    this.log(`$ lesswork make:endpoint HelloWorld`)
-    this.log(`$ npm run dev`)
+    this.info(`${this.icon('info')} Follow below instructions to get started:`)
+    this.log(`cd ${this.colors.magenta.bold(args.name)}`)
+    this.log(`lesswork make:endpoint HelloWorld`)
+    this.log(`lesswork serve`)
     this.log()
   }
 
