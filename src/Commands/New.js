@@ -103,7 +103,7 @@ class New extends BaseCommand {
 
     this.info(`${this.icon('info')} Follow below instructions to get started`)
     this.log(`$ cd ${this.colors.magenta.bold(args.name)}`)
-    this.log(`$ node work make:endpoint HelloWorld`)
+    this.log(`$ lesswork make:endpoint HelloWorld`)
     this.log(`$ npm run dev`)
     this.log()
   }
